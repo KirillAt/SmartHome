@@ -20,7 +20,7 @@ class AddDevice : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_device)
-        // Устанавливаем фон для кнопки "light"
+        // Устанавливаем фон для  кнопки "light"
         findViewById<ImageButton>(R.id.light).background = AppCompatResources.getDrawable(this, R.drawable.active_btn)
     }
     // Функция для возврата к списку устройств
