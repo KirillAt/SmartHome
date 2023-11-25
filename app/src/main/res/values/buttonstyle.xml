@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="border_pin_st"
+        parent="Widget.AppCompat.Button.Colored">
+        <item name="background">@drawable/border_pin</item>
+    </style>
+    <style name="red_btn"
+        parent="Widget.AppCompat.Button">
+        <item name="background">@color/redbut</item>
+        <item name="colorPrimary">@color/redbut</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="very_redbtn"
+        parent="Widget.AppCompat.Button">
+        <item name="background">@color/very_red_but</item>
+        <item name="colorPrimary">@color/very_red_but</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="black_btn"
+        parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blackbut</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="blue_btn"
+        parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/bluebut</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+    <style name="switch_da"
+        parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="track">@drawable/switch_test_track</item>
+        <item name="android:colorControlActivated">@color/bluebut</item>
+        <item name="android:thumb">@drawable/switch_test</item>
+        <item name="colorSwitchThumbNormal">@color/bluebut</item>
+        <item name="android:colorForeground">@color/gray</item>
+    </style>
+    <style name="slider"
+        parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="trackColorActive">@color/bluebut</item>
+        <item name="trackColorInactive">@color/gray</item>
+        <item name="thumbColor">@color/bluebut</item>
+        <item name="thumbRadius">5dp</item>
+    </style>
+    <style name="code_btn"
+        parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorOnBackground">@color/invis</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="borderWidth">2px</item>
+    </style>
+
+</resources>
