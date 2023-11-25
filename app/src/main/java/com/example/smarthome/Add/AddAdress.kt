@@ -9,7 +9,7 @@ import android.widget.EditText
 import androidx.lifecycle.lifecycleScope
 import com.example.smarthome.MainFunctions.MainScreen
 import com.example.smarthome.utils.UserMethods
-import com.example.smartlab.smarthome.R
+import com.example.smarthome.R
 import kotlinx.coroutines.launch
 
 class AddAdress : AppCompatActivity() {

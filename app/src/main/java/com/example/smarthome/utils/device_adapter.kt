@@ -13,7 +13,7 @@ import android.widget.TextView
 import androidx.appcompat.widget.SwitchCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.example.smarthome.Device.DeviceList
-import com.example.smartlab.smarthome.R
+import com.example.smarthome.R
 
 
 class device_adapter(private var DeviceList: List<DeviceList>, private val onClickListener: OnClickListener, private val onCheckListener : OnCheckedEvent) :

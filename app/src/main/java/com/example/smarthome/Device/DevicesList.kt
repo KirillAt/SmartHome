@@ -17,7 +17,7 @@ import com.example.smarthome.MainFunctions.Room
 import com.example.smarthome.MainFunctions.RoomType
 import com.example.smarthome.utils.SupaBacebd
 import com.example.smarthome.utils.UserMethods
-import com.example.smartlab.smarthome.R
+import com.example.smarthome.R
 import io.github.jan.supabase.postgrest.postgrest
 import io.github.jan.supabase.postgrest.query.Columns
 import io.github.jan.supabase.storage.storage

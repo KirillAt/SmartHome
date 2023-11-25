@@ -12,7 +12,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.smarthome.MainFunctions.Room
 import com.example.smarthome.MainFunctions.RoomList
-import com.example.smartlab.smarthome.R
+import com.example.smarthome.R
 
 
 class room_adapter(private var RoomList: List<RoomList>, private val onClickListener: OnClickListener) :

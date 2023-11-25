@@ -7,9 +7,10 @@ import android.os.Bundle
 import android.os.CountDownTimer
 import android.util.Log
 import androidx.lifecycle.lifecycleScope
+import com.example.smarthome.R
 import com.example.smarthome.Registration.Login
 import com.example.smarthome.Registration.LoginCode
-import com.example.smartlab.smarthome.R
+
 import io.github.jan.supabase.gotrue.gotrue
 import kotlinx.coroutines.launch
 
